@@ -1,38 +1,45 @@
 # Flutter Skills Pack
 
-## What This Package Is
-This repository is a publication-ready knowledge pack of three practical Flutter skills focused on architecture quality, design-pattern diagnostics, and safe simplification refactors.
+A repository of Flutter-focused `SKILL.md` packages in a `skills.sh`-compatible layout.
 
-## Who It Is For
-- Flutter engineers maintaining medium-to-large apps
-- Tech leads doing architecture and code-quality reviews
-- Teams that want consistent refactor and review playbooks
+## Included Skills
+- `flutter-architecture-guard`
+- `flutter-design-pattern-review`
+- `flutter-simplify`
 
-## What the 3 Flutter Skills Cover
-- **Flutter Architecture Guard**: boundary checks, dependency direction, and ownership clarity.
-- **Flutter Design Pattern Review**: practical pattern detection, anti-pattern analysis, and minimal structural recommendations.
-- **Flutter Simplify**: behavior-preserving refactors for readability and maintainability.
-
-## Folder Structure
+## Repository Structure
 ```text
 flutter-skills/
 ├── CHANGELOG.md
 ├── README.md
 ├── SKILL_INDEX.md
 └── skills/
-    ├── flutter-architecture-guard.md
-    ├── flutter-design-pattern-review.md
-    └── flutter-simplify.md
+    ├── flutter-architecture-guard/
+    │   └── SKILL.md
+    ├── flutter-design-pattern-review/
+    │   └── SKILL.md
+    └── flutter-simplify/
+        └── SKILL.md
 ```
 
-## How to Use the Skills
-1. Start with [SKILL_INDEX.md](./SKILL_INDEX.md) to select the right skill.
-2. Open the selected skill file and follow its step-by-step workflow.
-3. Use the examples to calibrate expected outputs.
-4. Apply recommendations incrementally and verify with tests/analyzers.
+## Install From GitHub (skills.sh)
+```bash
+# list available skills in repo
+npx skills add <owner>/flutter-skills --list
 
-## Publication / Readiness Notes
-- Content has been rewritten for public use and normalized for consistent structure.
-- Internal-only phrasing and rough-note style have been removed.
-- No secrets, private URLs, or personal notes were included in this package.
-- `examples/` and `templates/` were intentionally omitted because each skill already includes in-file usage examples and no reusable template artifacts were required.
+# install one skill
+npx skills add <owner>/flutter-skills --skill flutter-simplify
+
+# install all skills
+npx skills add <owner>/flutter-skills --skill '*'
+```
+
+## Local Validation
+Each skill file contains YAML frontmatter with required fields:
+- `name`
+- `description`
+
+Paths:
+- `skills/flutter-architecture-guard/SKILL.md`
+- `skills/flutter-design-pattern-review/SKILL.md`
+- `skills/flutter-simplify/SKILL.md`
