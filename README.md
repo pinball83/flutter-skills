@@ -6,6 +6,7 @@ A repository of Flutter-focused `SKILL.md` packages in a `skills.sh`-compatible 
 - `flutter-architecture-guard`
 - `flutter-design-pattern-review`
 - `flutter-simplify`
+- `pr-coverage-test-guard`
 
 ## Repository Structure
 ```text
@@ -18,7 +19,9 @@ flutter-skills/
     │   └── SKILL.md
     ├── flutter-design-pattern-review/
     │   └── SKILL.md
-    └── flutter-simplify/
+    ├── flutter-simplify/
+    │   └── SKILL.md
+    └── pr-coverage-test-guard/
         └── SKILL.md
 ```
 
@@ -43,3 +46,4 @@ Paths:
 - `skills/flutter-architecture-guard/SKILL.md`
 - `skills/flutter-design-pattern-review/SKILL.md`
 - `skills/flutter-simplify/SKILL.md`
+- `skills/pr-coverage-test-guard/SKILL.md`
