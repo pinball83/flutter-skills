@@ -6,12 +6,16 @@ A repository of Flutter-focused `SKILL.md` packages in a `skills.sh`-compatible 
 - `flutter-architecture-guard`
 - `flutter-design-pattern-review`
 - `flutter-simplify`
+- `jira-branch-starter`
 - `pr-coverage-test-guard`
+
+## Skill Index
+
+See [SKILL_INDEX.md](SKILL_INDEX.md) for the full list of skills and their purpose.
 
 ## Repository Structure
 ```text
 flutter-skills/
-├── CHANGELOG.md
 ├── README.md
 ├── SKILL_INDEX.md
 └── skills/
@@ -21,6 +25,10 @@ flutter-skills/
     │   └── SKILL.md
     ├── flutter-simplify/
     │   └── SKILL.md
+    ├── jira-branch-starter/
+    │   ├── SKILL.md
+    │   └── scripts/
+    │       └── branch_name.py
     └── pr-coverage-test-guard/
         └── SKILL.md
 ```
@@ -46,4 +54,5 @@ Paths:
 - `skills/flutter-architecture-guard/SKILL.md`
 - `skills/flutter-design-pattern-review/SKILL.md`
 - `skills/flutter-simplify/SKILL.md`
+- `skills/jira-branch-starter/SKILL.md`
 - `skills/pr-coverage-test-guard/SKILL.md`

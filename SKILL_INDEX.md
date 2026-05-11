@@ -1,8 +1,9 @@
 # Skill Index
 
-| Skill | Category | One-line Description | Path |
-|---|---|---|---|
-| `flutter-architecture-guard` | Architecture Review | Enforces clean boundaries, dependency direction, and feature ownership in Flutter codebases. | [skills/flutter-architecture-guard/SKILL.md](./skills/flutter-architecture-guard/SKILL.md) |
-| `flutter-design-pattern-review` | Patterns and Structure | Finds useful patterns, flags anti-patterns, and avoids overengineering. | [skills/flutter-design-pattern-review/SKILL.md](./skills/flutter-design-pattern-review/SKILL.md) |
-| `flutter-simplify` | Safe Refactoring | Simplifies Flutter code while preserving behavior and existing APIs. | [skills/flutter-simplify/SKILL.md](./skills/flutter-simplify/SKILL.md) |
-| `pr-coverage-test-guard` | Test Coverage | Analyzes PR coverage comments and adds/updates tests for changed files in the 0%-30% coverage range. | [skills/pr-coverage-test-guard/SKILL.md](./skills/pr-coverage-test-guard/SKILL.md) |
+This repository contains the following skills:
+
+- [flutter-architecture-guard](skills/flutter-architecture-guard/SKILL.md) - review and enforce Flutter architecture boundaries.
+- [flutter-design-pattern-review](skills/flutter-design-pattern-review/SKILL.md) - review Flutter and Dart code for design patterns and anti-patterns.
+- [flutter-simplify](skills/flutter-simplify/SKILL.md) - simplify Flutter and Dart code without changing behavior.
+- [jira-branch-starter](skills/jira-branch-starter/SKILL.md) - open Jira context and create a feature or fix branch with the Jira key prefix.
+- [pr-coverage-test-guard](skills/pr-coverage-test-guard/SKILL.md) - add tests for low-coverage changed files in a PR.
