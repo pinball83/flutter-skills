@@ -1,0 +1,7 @@
+interface:
+  display_name: "PR Coverage Test Guard"
+  short_description: "Turn low-coverage PR changes into tests"
+  icon_small: "./assets/pr-coverage-test-guard-small.svg"
+  icon_large: "./assets/pr-coverage-test-guard-large.svg"
+  brand_color: "#0F766E"
+  default_prompt: "Use $pr-coverage-test-guard to inspect the PR coverage comment, find changed files with low coverage, and update or create focused tests."

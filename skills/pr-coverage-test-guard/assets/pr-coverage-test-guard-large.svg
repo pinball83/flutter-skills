@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="PR Coverage Test Guard">
+  <defs>
+    <linearGradient id="bg" x1="56" y1="40" x2="456" y2="472" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#172554"/>
+    </linearGradient>
+    <linearGradient id="shield" x1="192" y1="116" x2="320" y2="384" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#CBD5E1"/>
+    </linearGradient>
+  </defs>
+  <rect x="32" y="32" width="448" height="448" rx="104" fill="url(#bg)"/>
+  <path d="M256 96l108 40v82c0 77-49 146-108 190-59-44-108-113-108-190v-82l108-40z" fill="url(#shield)"/>
+  <path d="M256 132l42 18v36c0 34-20 66-42 86-22-20-42-52-42-86v-36l42-18z" fill="#1E293B"/>
+  <path d="M232 244l20 20 38-46" fill="none" stroke="#22C55E" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M256 96l108 40v82c0 77-49 146-108 190-59-44-108-113-108-190v-82l108-40z" fill="none" stroke="#E2E8F0" stroke-width="8" opacity="0.72"/>
+</svg>
